@@ -308,6 +308,9 @@
                                     <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Ccr-tr-nkZ" kind="show" id="vis-xb-Xnm"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KuE-40-yqc">
                                 <rect key="frame" x="16" y="249" width="328" height="5"/>
@@ -323,6 +326,9 @@
                                     <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="k7c-Wh-QZR" kind="show" id="My0-8o-uS7"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="18B-HB-lsY">
                                 <rect key="frame" x="16" y="309" width="328" height="6"/>
@@ -338,6 +344,9 @@
                                     <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="zYh-ak-i8d" kind="show" id="18x-3C-Oa3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -349,9 +358,634 @@
             <point key="canvasLocation" x="4636" y="-567.48768472906409"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="B03-bF-xpc">
+            <objects>
+                <viewController id="Ccr-tr-nkZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kQh-N8-P8O">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dzm-ro-dRq">
+                                <rect key="frame" x="23" y="171" width="328" height="6"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OD4-uV-Brs">
+                                <rect key="frame" x="16" y="138" width="343" height="44"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="32"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Lists">
+                                    <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2s9-UP-mse">
+                                <rect key="frame" x="16" y="363" width="343" height="44"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="32"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Singly-Liked List">
+                                    <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="VuK-FI-LxS" kind="show" id="J3h-wn-zea"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TsS-Sm-0ve">
+                                <rect key="frame" x="16" y="239" width="343" height="100"/>
+                                <string key="text">A list is a common ADT for holding ordered data, having operations like append a data item, remove a data item, search whether a data item exists, and print the list.</string>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSP-5i-jPr">
+                                <rect key="frame" x="16" y="467" width="343" height="44"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="32"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Circular Linked list">
+                                    <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="MdX-CU-vcP" kind="show" id="jlm-7r-Fuc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Wr-z2-25T">
+                                <rect key="frame" x="16" y="415" width="343" height="44"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="32"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Doubly-Liked List">
+                                    <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cBn-M8-svz" kind="show" id="uba-Gy-pcp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OD4-uV-Brs" firstAttribute="top" secondItem="vrA-F1-cTs" secondAttribute="top" constant="50" id="3rJ-Ft-grw"/>
+                            <constraint firstItem="TsS-Sm-0ve" firstAttribute="top" secondItem="OD4-uV-Brs" secondAttribute="bottom" constant="57" id="3tL-bH-Pnv"/>
+                            <constraint firstItem="vrA-F1-cTs" firstAttribute="trailing" secondItem="OD4-uV-Brs" secondAttribute="trailing" constant="16" id="54T-pQ-6Us"/>
+                            <constraint firstItem="4Wr-z2-25T" firstAttribute="leading" secondItem="vrA-F1-cTs" secondAttribute="leading" constant="16" id="8Kd-I7-U2Y"/>
+                            <constraint firstItem="2s9-UP-mse" firstAttribute="leading" secondItem="vrA-F1-cTs" secondAttribute="leading" constant="16" id="9IM-d3-VQx"/>
+                            <constraint firstItem="Dzm-ro-dRq" firstAttribute="top" secondItem="vrA-F1-cTs" secondAttribute="top" constant="83" id="B7i-tY-svH"/>
+                            <constraint firstItem="4Wr-z2-25T" firstAttribute="top" secondItem="2s9-UP-mse" secondAttribute="bottom" constant="8" id="BqX-Bo-d1m"/>
+                            <constraint firstItem="vrA-F1-cTs" firstAttribute="trailing" secondItem="2s9-UP-mse" secondAttribute="trailing" constant="16" id="Fni-ZO-Qfa"/>
+                            <constraint firstItem="2s9-UP-mse" firstAttribute="top" secondItem="TsS-Sm-0ve" secondAttribute="bottom" constant="24" id="OdT-iq-qIN"/>
+                            <constraint firstItem="vrA-F1-cTs" firstAttribute="trailing" secondItem="TSP-5i-jPr" secondAttribute="trailing" constant="16" id="QiM-rI-Rfk"/>
+                            <constraint firstItem="TsS-Sm-0ve" firstAttribute="leading" secondItem="vrA-F1-cTs" secondAttribute="leading" constant="16" id="UBz-6m-dbe"/>
+                            <constraint firstItem="TSP-5i-jPr" firstAttribute="top" secondItem="4Wr-z2-25T" secondAttribute="bottom" constant="8" id="ZKg-CT-4rt"/>
+                            <constraint firstItem="OD4-uV-Brs" firstAttribute="leading" secondItem="vrA-F1-cTs" secondAttribute="leading" constant="16" id="chb-4w-rAg"/>
+                            <constraint firstItem="vrA-F1-cTs" firstAttribute="trailing" secondItem="TsS-Sm-0ve" secondAttribute="trailing" constant="16" id="hBm-FG-FOW"/>
+                            <constraint firstItem="TSP-5i-jPr" firstAttribute="leading" secondItem="vrA-F1-cTs" secondAttribute="leading" constant="16" id="npg-br-gDy"/>
+                            <constraint firstItem="vrA-F1-cTs" firstAttribute="trailing" secondItem="Dzm-ro-dRq" secondAttribute="trailing" constant="24" id="oVc-aM-Qgl"/>
+                            <constraint firstItem="vrA-F1-cTs" firstAttribute="trailing" secondItem="4Wr-z2-25T" secondAttribute="trailing" constant="16" id="rgW-PJ-YkF"/>
+                            <constraint firstItem="Dzm-ro-dRq" firstAttribute="leading" secondItem="vrA-F1-cTs" secondAttribute="leading" constant="23" id="rgw-uC-7fr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vrA-F1-cTs"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uPf-0r-gg6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5334" y="-565"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5An-1b-JRN">
+            <objects>
+                <viewController id="zYh-ak-i8d" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yGj-0P-kO6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXE-O1-Ilg">
+                                <rect key="frame" x="16" y="106" width="343" height="44"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="32"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Queues">
+                                    <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A queue is an ADT in which items are inserted at the end of the queue and removed from the front of the queue." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xHO-9Q-qPQ">
+                                <rect key="frame" x="16" y="158" width="343" height="60"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhK-0t-rCO">
+                                <rect key="frame" x="16" y="226" width="208" height="35"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="23"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Common Operations">
+                                    <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ppu-Tq-pTe">
+                                <rect key="frame" x="16" y="266" width="343" height="240"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Push(queue, x)	Inserts x at end of the queue                                                      Pop(queue)	Returns and removes item at front of queue	
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="20" name="HoeflerText-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Peek(queue)	Returns but does not remove item at the front of the queue	IsEmpty(queue)	Returns true if queue has no items	                      GetLength(queue)	Returns the number of items in the queue	</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="20" name="HoeflerText-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineSpacing="8" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="simple-queue" translatesAutoresizingMaskIntoConstraints="NO" id="EQs-bY-fZa">
+                                <rect key="frame" x="0.0" y="522" width="375" height="279"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="279" id="Ya7-Wu-lgk"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xHO-9Q-qPQ" firstAttribute="leading" secondItem="Fb3-Lv-Pgr" secondAttribute="leading" constant="16" id="28S-Ym-BRh"/>
+                            <constraint firstItem="bXE-O1-Ilg" firstAttribute="top" secondItem="Fb3-Lv-Pgr" secondAttribute="top" constant="18" id="DcB-pJ-U2I"/>
+                            <constraint firstItem="Fb3-Lv-Pgr" firstAttribute="trailing" secondItem="ppu-Tq-pTe" secondAttribute="trailing" constant="16" id="KXD-2b-Qtl"/>
+                            <constraint firstItem="Fb3-Lv-Pgr" firstAttribute="trailing" secondItem="bXE-O1-Ilg" secondAttribute="trailing" constant="16" id="OYp-6s-vWN"/>
+                            <constraint firstItem="EhK-0t-rCO" firstAttribute="leading" secondItem="Fb3-Lv-Pgr" secondAttribute="leading" constant="16" id="WC4-dS-Obq"/>
+                            <constraint firstItem="EQs-bY-fZa" firstAttribute="top" secondItem="ppu-Tq-pTe" secondAttribute="bottom" constant="16" id="Y0W-P8-Djp"/>
+                            <constraint firstItem="bXE-O1-Ilg" firstAttribute="leading" secondItem="Fb3-Lv-Pgr" secondAttribute="leading" constant="16" id="YEm-Xs-HPw"/>
+                            <constraint firstItem="Fb3-Lv-Pgr" firstAttribute="trailing" secondItem="xHO-9Q-qPQ" secondAttribute="trailing" constant="16" id="Zlc-NW-07H"/>
+                            <constraint firstItem="Fb3-Lv-Pgr" firstAttribute="trailing" secondItem="EhK-0t-rCO" secondAttribute="trailing" constant="151" id="eJI-ye-kIy"/>
+                            <constraint firstItem="EhK-0t-rCO" firstAttribute="top" secondItem="xHO-9Q-qPQ" secondAttribute="bottom" constant="8" id="nlg-CV-Y9s"/>
+                            <constraint firstItem="EQs-bY-fZa" firstAttribute="trailing" secondItem="Fb3-Lv-Pgr" secondAttribute="trailing" id="qoo-Nb-D9F"/>
+                            <constraint firstItem="xHO-9Q-qPQ" firstAttribute="top" secondItem="bXE-O1-Ilg" secondAttribute="bottom" constant="8" id="sm9-7L-rCQ"/>
+                            <constraint firstItem="EQs-bY-fZa" firstAttribute="leading" secondItem="Fb3-Lv-Pgr" secondAttribute="leading" id="vec-3o-pD1"/>
+                            <constraint firstItem="ppu-Tq-pTe" firstAttribute="leading" secondItem="Fb3-Lv-Pgr" secondAttribute="leading" constant="16" id="x3K-AO-h9R"/>
+                            <constraint firstItem="ppu-Tq-pTe" firstAttribute="top" secondItem="EhK-0t-rCO" secondAttribute="bottom" constant="5" id="zZ3-Bx-fPJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Fb3-Lv-Pgr"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B4E-mL-5Di" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4660" y="854.92610837438428"/>
+        </scene>
+        <!--Doubly Linked List-->
+        <scene sceneID="25r-h2-hx9">
+            <objects>
+                <viewController title="Doubly Linked List" id="cBn-M8-svz" customClass="LinkedListViewController" customModule="Data_Structures_II" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NIp-uh-xD9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="List" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUZ-EO-49f">
+                                <rect key="frame" x="16" y="421" width="343" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BPp-4k-ZkF">
+                                <rect key="frame" x="94" y="535" width="188" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Append French Bulldogs"/>
+                                <connections>
+                                    <action selector="removeFromList:" destination="cBn-M8-svz" eventType="touchUpInside" id="Atn-Cu-sTY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WiZ-gt-eaU">
+                                <rect key="frame" x="16" y="141" width="343" height="140"/>
+                                <string key="text">In a 'doubly linked list', each node contains, besides the next-node link, a second link field pointing to the 'previous' node in the sequence. The two links may be called 'forward('s') and 'backwards', or 'next' and 'prev'('previous').</string>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1220px-Doubly-linked-list.svg" translatesAutoresizingMaskIntoConstraints="NO" id="WI3-oR-R5q">
+                                <rect key="frame" x="0.0" y="330" width="375" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="u9K-76-0u7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Empty List?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGp-QL-1VC">
+                                <rect key="frame" x="103" y="671" width="169" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Is the List Empty?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n8B-Qv-Lhr">
+                                <rect key="frame" x="119" y="642" width="136" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fisrt Node" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xA0-P6-zzx">
+                                <rect key="frame" x="147" y="720" width="80" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="List" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nf2-UT-51z">
+                                <rect key="frame" x="16" y="731" width="343" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2U-yg-NkY">
+                                <rect key="frame" x="84" y="576" width="209" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Remove French Bulldogs"/>
+                                <connections>
+                                    <action selector="removeAllFromList:" destination="cBn-M8-svz" eventType="touchUpInside" id="wv8-Iz-KfM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WI3-oR-R5q" firstAttribute="leading" secondItem="obg-aZ-TfT" secondAttribute="leading" id="CYS-Lk-eCl"/>
+                            <constraint firstItem="WiZ-gt-eaU" firstAttribute="top" secondItem="obg-aZ-TfT" secondAttribute="top" constant="53" id="E4P-C5-2Ip"/>
+                            <constraint firstItem="WI3-oR-R5q" firstAttribute="trailing" secondItem="obg-aZ-TfT" secondAttribute="trailing" id="XLz-Lq-eHq"/>
+                            <constraint firstItem="WiZ-gt-eaU" firstAttribute="leading" secondItem="obg-aZ-TfT" secondAttribute="leading" constant="16" id="d5s-eF-IOJ"/>
+                            <constraint firstItem="obg-aZ-TfT" firstAttribute="trailing" secondItem="WiZ-gt-eaU" secondAttribute="trailing" constant="16" id="npv-Ph-xdD"/>
+                            <constraint firstItem="WI3-oR-R5q" firstAttribute="top" secondItem="WiZ-gt-eaU" secondAttribute="bottom" constant="49" id="wdT-0z-yy8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="obg-aZ-TfT"/>
+                    </view>
+                    <connections>
+                        <outlet property="IsEmpty" destination="TGp-QL-1VC" id="RWX-yx-0AZ"/>
+                        <outlet property="firstNodePrint" destination="TGp-QL-1VC" id="QsA-cn-xLI"/>
+                        <outlet property="printList" destination="UUZ-EO-49f" id="k49-Nl-cdh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oBH-Pd-hJv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5333.6000000000004" y="852.70935960591135"/>
+        </scene>
+        <!--Circular Linked list-->
+        <scene sceneID="AOf-cX-4BO">
+            <objects>
+                <viewController title="Circular Linked list" id="MdX-CU-vcP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I8X-1c-HHQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lDj-xp-p0F">
+                                <rect key="frame" x="16" y="132" width="343" height="140"/>
+                                <string key="text">In the last node of a list, the link field often contains a null reference, a special value is used to indicate the lack of further nodes. It is a list where the last pointer points to the first node.
+
+</string>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="700px-Circularly-linked-list.svg" translatesAutoresizingMaskIntoConstraints="NO" id="5Bl-Gy-IpE">
+                                <rect key="frame" x="0.0" y="301" width="375" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="qLF-Oo-0l7"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Cef-d4-Iqf" firstAttribute="trailing" secondItem="lDj-xp-p0F" secondAttribute="trailing" constant="16" id="9ga-BS-3Tw"/>
+                            <constraint firstItem="lDj-xp-p0F" firstAttribute="leading" secondItem="Cef-d4-Iqf" secondAttribute="leading" constant="16" id="E5i-dw-g2d"/>
+                            <constraint firstItem="lDj-xp-p0F" firstAttribute="top" secondItem="Cef-d4-Iqf" secondAttribute="top" constant="44" id="eSy-u6-V40"/>
+                            <constraint firstItem="5Bl-Gy-IpE" firstAttribute="top" secondItem="lDj-xp-p0F" secondAttribute="bottom" constant="29" id="reL-I7-kzI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Cef-d4-Iqf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LZ9-5d-dti" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5333.6000000000004" y="1572.4137931034484"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LPp-v7-nez">
+            <objects>
+                <viewController id="k7c-Wh-QZR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L7r-go-wfF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTB-In-Sbe">
+                                <rect key="frame" x="16" y="111" width="343" height="44"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="32"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Stacks">
+                                    <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cd2-qH-etS">
+                                <rect key="frame" x="-448" y="226" width="328" height="6"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A stack is an ADT in which items are only inserted on or removed from the top of a stack. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUr-n7-hmn">
+                                <rect key="frame" x="16" y="160" width="343" height="60"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SjF-Sm-6GZ">
+                                <rect key="frame" x="16" y="254" width="181" height="32"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="20"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Common Operations">
+                                    <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stack" translatesAutoresizingMaskIntoConstraints="NO" id="T3X-77-zkx">
+                                <rect key="frame" x="0.0" y="546" width="375" height="266"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="266" id="7lW-nN-cKh"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="285" id="igJ-Xw-n5h"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnX-SO-fvi">
+                                <rect key="frame" x="16" y="294" width="343" height="240"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Push(stack, x)
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Inserts x on top of stack
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Pop(stack)
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Returns and removes item at top of stack
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Peek(stack)
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Returns but does not remove item at top of stack
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">IsEmpty(stack)
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Returns true if stack has no items
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">GetLength(stack)
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Returns the number of items in the stack
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.21568627450980393" green="0.27843137254901962" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <real key="NSStrokeWidth" value="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0XQ-uC-N9B" firstAttribute="trailing" secondItem="XTB-In-Sbe" secondAttribute="trailing" constant="16" id="1Ln-sT-X0I"/>
+                            <constraint firstItem="XTB-In-Sbe" firstAttribute="leading" secondItem="0XQ-uC-N9B" secondAttribute="leading" constant="16" id="4eB-M9-1R0"/>
+                            <constraint firstItem="T3X-77-zkx" firstAttribute="leading" secondItem="0XQ-uC-N9B" secondAttribute="leading" id="Lsk-bT-7a7"/>
+                            <constraint firstItem="UUr-n7-hmn" firstAttribute="leading" secondItem="0XQ-uC-N9B" secondAttribute="leading" constant="16" id="MXK-Xj-u0T"/>
+                            <constraint firstItem="SjF-Sm-6GZ" firstAttribute="top" secondItem="UUr-n7-hmn" secondAttribute="bottom" constant="34" id="PGW-X5-mDK"/>
+                            <constraint firstItem="0XQ-uC-N9B" firstAttribute="trailing" secondItem="UUr-n7-hmn" secondAttribute="trailing" constant="16" id="dUu-Bk-T9U"/>
+                            <constraint firstItem="UUr-n7-hmn" firstAttribute="top" secondItem="XTB-In-Sbe" secondAttribute="bottom" constant="5" id="ikA-ym-Wea"/>
+                            <constraint firstItem="T3X-77-zkx" firstAttribute="trailing" secondItem="0XQ-uC-N9B" secondAttribute="trailing" id="kf7-TG-U4S"/>
+                            <constraint firstAttribute="bottom" secondItem="T3X-77-zkx" secondAttribute="bottom" id="l1c-4q-NRG"/>
+                            <constraint firstItem="XTB-In-Sbe" firstAttribute="top" secondItem="0XQ-uC-N9B" secondAttribute="top" constant="23" id="nru-kY-xzP"/>
+                            <constraint firstItem="SjF-Sm-6GZ" firstAttribute="leading" secondItem="0XQ-uC-N9B" secondAttribute="leading" constant="16" id="sjr-Hg-Ur2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0XQ-uC-N9B"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iR9-Jj-zDn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4636" y="158.86699507389164"/>
+        </scene>
+        <!--Singly Linked List-->
+        <scene sceneID="teo-vM-q6w">
+            <objects>
+                <viewController title="Singly Linked List" id="VuK-FI-LxS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Daz-D5-yzp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CoE-QZ-L51">
+                                <rect key="frame" x="16" y="146" width="343" height="100"/>
+                                <string key="text">In a singly linked list, each node in the list stores the contents and a pointer or reference to the next node in the list. It does not store any pointer or reference to the previous node.</string>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="816px-Singly-linked-list.svg" translatesAutoresizingMaskIntoConstraints="NO" id="gs1-Lo-52J">
+                                <rect key="frame" x="0.0" y="303" width="375" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="c4H-Ha-mdp"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gs1-Lo-52J" firstAttribute="leading" secondItem="74Z-dj-wt6" secondAttribute="leading" id="Eau-Gi-oPk"/>
+                            <constraint firstItem="CoE-QZ-L51" firstAttribute="leading" secondItem="74Z-dj-wt6" secondAttribute="leading" constant="16" id="IYj-qh-QBV"/>
+                            <constraint firstItem="74Z-dj-wt6" firstAttribute="trailing" secondItem="CoE-QZ-L51" secondAttribute="trailing" constant="16" id="QBg-3A-qXC"/>
+                            <constraint firstItem="gs1-Lo-52J" firstAttribute="trailing" secondItem="74Z-dj-wt6" secondAttribute="trailing" id="fa0-sQ-1Pf"/>
+                            <constraint firstItem="gs1-Lo-52J" firstAttribute="top" secondItem="CoE-QZ-L51" secondAttribute="bottom" constant="57" id="jRt-dC-5Ny"/>
+                            <constraint firstItem="CoE-QZ-L51" firstAttribute="top" secondItem="74Z-dj-wt6" secondAttribute="top" constant="58" id="kmL-yB-T9M"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="74Z-dj-wt6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2br-Xd-E5Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5334" y="159"/>
+        </scene>
+        <!--Hashing View Controller-->
         <scene sceneID="LfM-6L-gn7">
             <objects>
-                <viewController id="Ad1-a0-mDU" sceneMemberID="viewController">
+                <viewController id="Ad1-a0-mDU" customClass="HashingViewController" customModule="Data_Structures_II" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jMZ-lQ-Bai">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -362,7 +996,7 @@
                                 <color key="backgroundColor" red="0.25490196078431371" green="0.58431372549019611" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNs-hw-zay">
-                                <rect key="frame" x="16" y="129" width="343" height="53"/>
+                                <rect key="frame" x="16" y="120" width="343" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="32"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -371,6 +1005,38 @@
                                     <color key="titleShadowColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFC-a0-GXJ">
+                                <rect key="frame" x="21" y="208" width="338" height="173"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">A hash table (hash map) is a data structure that implements an associative array abstract data type, a structure that can map keys to values. A hash table uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smallPhoneBookHASH" translatesAutoresizingMaskIntoConstraints="NO" id="UJa-8p-5YE">
+                                <rect key="frame" x="0.0" y="389" width="375" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sorce: Wiki" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFX-AD-eIw">
+                                <rect key="frame" x="275" y="769" width="84" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="54T-gr-Dvg">
+                                <rect key="frame" x="88" y="633" width="195" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Collision Resolution">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2jC-Vt-XG6" kind="show" id="bUM-4x-2MM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.098039215686274508" green="0.25490196078431371" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="dKw-kX-EAS"/>
@@ -378,7 +1044,51 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vig-LY-oiU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6053.6000000000004" y="-567.48768472906409"/>
+            <point key="canvasLocation" x="6327" y="-567"/>
+        </scene>
+        <!--Collision Resolution-->
+        <scene sceneID="yBj-Gz-AfF">
+            <objects>
+                <viewController title="Collision Resolution" id="2jC-Vt-XG6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="had-Bt-dtl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Separate Chaining" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r9k-gt-8C6">
+                                <rect key="frame" x="30" y="377" width="156" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjS-Hs-VEw">
+                                <rect key="frame" x="30" y="408" width="315" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Each bucket is independent, and has some sort of list of entries with the same index. The time for hash table operations is the time to find the bucket (which is constant) plus the time for the list operation.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="900px-Hash_table_5_0_1_1_1_1_1_LL.svg" translatesAutoresizingMaskIntoConstraints="NO" id="LOH-aG-hMG">
+                                <rect key="frame" x="0.0" y="542" width="375" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezH-xz-BU2">
+                                <rect key="frame" x="30" y="119" width="315" height="223"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Hash collisions are practically unavoidable when hashing a random subset of a large set of possible keys. For example, if 2,450 keys are hashed into a million buckets, even with a perfectly uniform random distribution, according to the birthday problem there is approximately a 95% chance of at least two of the keys being hashed to the same slot.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.098039215690000001" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="yKE-kP-yh8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0mN-D4-WVC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6326" y="129"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cM7-x9-f3c">
@@ -410,7 +1120,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O2P-uQ-jb7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7348" y="-567.48768472906409"/>
+            <point key="canvasLocation" x="8006" y="-565"/>
         </scene>
         <!--Insertion Sort View Controller-->
         <scene sceneID="xFv-Pm-GsY">
@@ -622,7 +1332,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sna-Re-jRK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2837.5999999999999" y="810.59113300492618"/>
+            <point key="canvasLocation" x="2825" y="811"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5zF-hf-1QM">
@@ -666,7 +1376,7 @@ Next i </string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cfx-g1-3VQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3588" y="810.59113300492618"/>
+            <point key="canvasLocation" x="3511" y="811"/>
         </scene>
         <!--Bubble Sort View Controller-->
         <scene sceneID="Nge-9q-oPC">
@@ -815,7 +1525,7 @@ end procedure</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qkE-QD-3XB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3588" y="1478.5714285714287"/>
+            <point key="canvasLocation" x="3511" y="1479"/>
         </scene>
         <!--Merge Sort View Controller-->
         <scene sceneID="o3Y-TK-Nfx">
@@ -962,7 +1672,7 @@ end func</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ha6-ts-A4g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3588" y="2180.5418719211825"/>
+            <point key="canvasLocation" x="3511" y="2181"/>
         </scene>
         <!--Quicksort View Controller-->
         <scene sceneID="cwc-GS-MAf">
@@ -1123,7 +1833,7 @@ end function</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T5e-26-8rr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3588" y="2878.8177339901481"/>
+            <point key="canvasLocation" x="3510" y="2879"/>
         </scene>
         <!--Radix Sort View Controller-->
         <scene sceneID="Izg-HV-SB8">
@@ -1293,7 +2003,7 @@ end func
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rg0-AF-jI3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3588" y="3577.8325123152713"/>
+            <point key="canvasLocation" x="3511" y="3578"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="P65-U7-NhN">
@@ -1333,7 +2043,7 @@ end while</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5bz-n2-jC7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3588" y="128.57142857142858"/>
+            <point key="canvasLocation" x="3511" y="129"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gIH-Wd-n0Q">
@@ -1355,6 +2065,13 @@ end while</string>
         </scene>
     </scenes>
     <resources>
+        <image name="1220px-Doubly-linked-list.svg" width="1220" height="82"/>
+        <image name="700px-Circularly-linked-list.svg" width="700" height="120"/>
+        <image name="816px-Singly-linked-list.svg" width="816" height="82"/>
+        <image name="900px-Hash_table_5_0_1_1_1_1_1_LL.svg" width="900" height="620"/>
         <image name="radixSort" width="668" height="265"/>
+        <image name="simple-queue" width="642" height="221"/>
+        <image name="smallPhoneBookHASH" width="630" height="460"/>
+        <image name="stack" width="620" height="367"/>
     </resources>
 </document>

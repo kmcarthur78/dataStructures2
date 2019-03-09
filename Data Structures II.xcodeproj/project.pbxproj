@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		425633ED22306CEA00FC14E5 /* LinkedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425633EC22306CEA00FC14E5 /* LinkedListViewController.swift */; };
+		425633EF22320A1300FC14E5 /* HashingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425633EE22320A1300FC14E5 /* HashingViewController.swift */; };
 		425B18F0220E219A00EC678C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425B18EF220E219A00EC678C /* AppDelegate.swift */; };
 		425B18F5220E219A00EC678C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425B18F3220E219A00EC678C /* Main.storyboard */; };
 		425B18F7220E219B00EC678C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425B18F6220E219B00EC678C /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		425633EC22306CEA00FC14E5 /* LinkedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListViewController.swift; sourceTree = "<group>"; };
+		425633EE22320A1300FC14E5 /* HashingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashingViewController.swift; sourceTree = "<group>"; };
 		425B18EC220E219A00EC678C /* Data Structures II.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Data Structures II.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		425B18EF220E219A00EC678C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		425B18F4220E219A00EC678C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 				428D860D220F811200DA308D /* BubbleSortViewController.swift */,
 				428D8611220F814200DA308D /* QuicksortViewController.swift */,
 				42FF26D722136CAE0017F190 /* RadixSortViewController.swift */,
+				425633EC22306CEA00FC14E5 /* LinkedListViewController.swift */,
+				425633EE22320A1300FC14E5 /* HashingViewController.swift */,
 			);
 			path = "Data Structures II";
 			sourceTree = "<group>";
@@ -280,12 +286,14 @@
 				425B1922220E255200EC678C /* SetViewController.swift in Sources */,
 				42FF26D822136CAE0017F190 /* RadixSortViewController.swift in Sources */,
 				428D860C220F80FA00DA308D /* MergeSortViewController.swift in Sources */,
+				425633ED22306CEA00FC14E5 /* LinkedListViewController.swift in Sources */,
 				425B18F0220E219A00EC678C /* AppDelegate.swift in Sources */,
 				428D8604220E344600DA308D /* InsertionSortViewController.swift in Sources */,
 				428D860E220F811200DA308D /* BubbleSortViewController.swift in Sources */,
 				425B1924220E25F100EC678C /* MainScreenViewController.swift in Sources */,
 				428D8612220F814200DA308D /* QuicksortViewController.swift in Sources */,
 				428D860A220F7F4A00DA308D /* SelectionSortViewController.swift in Sources */,
+				425633EF22320A1300FC14E5 /* HashingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

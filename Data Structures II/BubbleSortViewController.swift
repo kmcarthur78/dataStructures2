@@ -10,13 +10,13 @@ import UIKit
 
 class BubbleSortViewController: UIViewController {
 
-    var list = [2,6,3,10,55,1,20]
+    var list = [2,26,3,10,55,1,20]
     
     @IBOutlet weak var unsortedList: UILabel!
     @IBOutlet weak var listResult: UILabel!
     
     @IBAction func sortButton(_ sender: Any) {
-        let sortedList = bubbleSort(arr: &list)
+        let sortedList = selectionSort(list)
         listResult.text = "\(sortedList)"
     }
     
@@ -34,7 +34,6 @@ class BubbleSortViewController: UIViewController {
         //        GIFImageView = imageView3
     }
     
-
     func bubbleSort(arr: inout [Int]) {
         for i in (1..<arr.count).reversed() {
             for j in 0..<i where arr[j] > arr[j + 1] {
@@ -42,14 +41,26 @@ class BubbleSortViewController: UIViewController {
             }
         }
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    func selectionSort(_ array: [Int]) -> [Int] {
+        guard array.count > 1 else { return array }  // 1
+        
+        var a = array                    // 2
+        
+        for x in 0 ..< a.count - 1 {     // 3
+            
+            var lowest = x
+            for y in x + 1 ..< a.count {   // 4
+                if a[y] < a[lowest] {
+                    lowest = y
+                }
+            }
+            
+            if x != lowest {               // 5
+                a.swapAt(x, lowest)
+            }
+        }
+        return a
     }
-    */
-
+    
 }

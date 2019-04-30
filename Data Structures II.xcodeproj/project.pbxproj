@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42229FF1224E8E760063AE80 /* SingleLinkedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42229FF0224E8E750063AE80 /* SingleLinkedListViewController.swift */; };
 		425633ED22306CEA00FC14E5 /* LinkedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425633EC22306CEA00FC14E5 /* LinkedListViewController.swift */; };
 		425633EF22320A1300FC14E5 /* HashingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425633EE22320A1300FC14E5 /* HashingViewController.swift */; };
+		425633F12234293600FC14E5 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425633F02234293600FC14E5 /* StackViewController.swift */; };
 		425B18F0220E219A00EC678C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425B18EF220E219A00EC678C /* AppDelegate.swift */; };
 		425B18F5220E219A00EC678C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425B18F3220E219A00EC678C /* Main.storyboard */; };
 		425B18F7220E219B00EC678C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425B18F6220E219B00EC678C /* Assets.xcassets */; };
@@ -17,11 +19,14 @@
 		425B1910220E219B00EC678C /* Data_Structures_IIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425B190F220E219B00EC678C /* Data_Structures_IIUITests.swift */; };
 		425B1922220E255200EC678C /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425B1921220E255200EC678C /* SetViewController.swift */; };
 		425B1924220E25F100EC678C /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425B1923220E25F100EC678C /* MainScreenViewController.swift */; };
+		426061F422343CFE002E86C3 /* QueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426061F322343CFE002E86C3 /* QueueViewController.swift */; };
 		428D8604220E344600DA308D /* InsertionSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428D8603220E344600DA308D /* InsertionSortViewController.swift */; };
 		428D860A220F7F4A00DA308D /* SelectionSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428D8609220F7F4A00DA308D /* SelectionSortViewController.swift */; };
 		428D860C220F80FA00DA308D /* MergeSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428D860B220F80FA00DA308D /* MergeSortViewController.swift */; };
 		428D860E220F811200DA308D /* BubbleSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428D860D220F811200DA308D /* BubbleSortViewController.swift */; };
 		428D8612220F814200DA308D /* QuicksortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428D8611220F814200DA308D /* QuicksortViewController.swift */; };
+		428DC53B226EA2C000231D49 /* insertBinaryTreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428DC53A226EA2C000231D49 /* insertBinaryTreeViewController.swift */; };
+		42B4F2FB22660F7C0033B73F /* BinarySearchTreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4F2FA22660F7C0033B73F /* BinarySearchTreeViewController.swift */; };
 		42FF26D822136CAE0017F190 /* RadixSortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FF26D722136CAE0017F190 /* RadixSortViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +48,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42229FF0224E8E750063AE80 /* SingleLinkedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLinkedListViewController.swift; sourceTree = "<group>"; };
 		425633EC22306CEA00FC14E5 /* LinkedListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListViewController.swift; sourceTree = "<group>"; };
 		425633EE22320A1300FC14E5 /* HashingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashingViewController.swift; sourceTree = "<group>"; };
+		425633F02234293600FC14E5 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
 		425B18EC220E219A00EC678C /* Data Structures II.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Data Structures II.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		425B18EF220E219A00EC678C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		425B18F4220E219A00EC678C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -59,11 +66,14 @@
 		425B1911220E219B00EC678C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		425B1921220E255200EC678C /* SetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
 		425B1923220E25F100EC678C /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		426061F322343CFE002E86C3 /* QueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueViewController.swift; sourceTree = "<group>"; };
 		428D8603220E344600DA308D /* InsertionSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSortViewController.swift; sourceTree = "<group>"; };
 		428D8609220F7F4A00DA308D /* SelectionSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSortViewController.swift; sourceTree = "<group>"; };
 		428D860B220F80FA00DA308D /* MergeSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortViewController.swift; sourceTree = "<group>"; };
 		428D860D220F811200DA308D /* BubbleSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSortViewController.swift; sourceTree = "<group>"; };
 		428D8611220F814200DA308D /* QuicksortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuicksortViewController.swift; sourceTree = "<group>"; };
+		428DC53A226EA2C000231D49 /* insertBinaryTreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insertBinaryTreeViewController.swift; sourceTree = "<group>"; };
+		42B4F2FA22660F7C0033B73F /* BinarySearchTreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTreeViewController.swift; sourceTree = "<group>"; };
 		42FF26D722136CAE0017F190 /* RadixSortViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadixSortViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +140,11 @@
 				42FF26D722136CAE0017F190 /* RadixSortViewController.swift */,
 				425633EC22306CEA00FC14E5 /* LinkedListViewController.swift */,
 				425633EE22320A1300FC14E5 /* HashingViewController.swift */,
+				425633F02234293600FC14E5 /* StackViewController.swift */,
+				426061F322343CFE002E86C3 /* QueueViewController.swift */,
+				42229FF0224E8E750063AE80 /* SingleLinkedListViewController.swift */,
+				42B4F2FA22660F7C0033B73F /* BinarySearchTreeViewController.swift */,
+				428DC53A226EA2C000231D49 /* insertBinaryTreeViewController.swift */,
 			);
 			path = "Data Structures II";
 			sourceTree = "<group>";
@@ -283,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B4F2FB22660F7C0033B73F /* BinarySearchTreeViewController.swift in Sources */,
 				425B1922220E255200EC678C /* SetViewController.swift in Sources */,
 				42FF26D822136CAE0017F190 /* RadixSortViewController.swift in Sources */,
 				428D860C220F80FA00DA308D /* MergeSortViewController.swift in Sources */,
@@ -290,10 +306,14 @@
 				425B18F0220E219A00EC678C /* AppDelegate.swift in Sources */,
 				428D8604220E344600DA308D /* InsertionSortViewController.swift in Sources */,
 				428D860E220F811200DA308D /* BubbleSortViewController.swift in Sources */,
+				428DC53B226EA2C000231D49 /* insertBinaryTreeViewController.swift in Sources */,
 				425B1924220E25F100EC678C /* MainScreenViewController.swift in Sources */,
 				428D8612220F814200DA308D /* QuicksortViewController.swift in Sources */,
+				426061F422343CFE002E86C3 /* QueueViewController.swift in Sources */,
+				425633F12234293600FC14E5 /* StackViewController.swift in Sources */,
 				428D860A220F7F4A00DA308D /* SelectionSortViewController.swift in Sources */,
 				425633EF22320A1300FC14E5 /* HashingViewController.swift in Sources */,
+				42229FF1224E8E760063AE80 /* SingleLinkedListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

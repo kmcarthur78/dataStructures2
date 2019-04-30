@@ -10,19 +10,19 @@ import UIKit
 
 class RadixSortViewController: UIViewController {
 
-    var arr = [2,6,3,10,55,1,20]
+    var list = [20,100,1,32,1212,45,3,65,2]
     
     @IBOutlet weak var unsortedList: UILabel!
     @IBOutlet weak var listResult: UILabel!
     @IBAction func sortButton(_ sender: Any) {
-        let sortedList = radixSort1(&arr)
+        let sortedList = selectionSort(list)
         listResult.text = "\(sortedList)"
     }
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        unsortedList.text = "\(arr)"
+        unsortedList.text = "\(list)"
     }
     
     func radixSort1(_ arr: inout [Int]) {
@@ -44,14 +44,27 @@ class RadixSortViewController: UIViewController {
         
         arr = temp[0]
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    func selectionSort(_ array: [Int]) -> [Int] {
+        guard array.count > 1 else { return array }  // 1
+        
+        var a = array                    // 2
+        
+        for x in 0 ..< a.count - 1 {     // 3
+            
+            var lowest = x
+            for y in x + 1 ..< a.count {   // 4
+                if a[y] < a[lowest] {
+                    lowest = y
+                }
+            }
+            
+            if x != lowest {               // 5
+                a.swapAt(x, lowest)
+            }
+        }
+        return a
     }
-    */
+    
 
 }

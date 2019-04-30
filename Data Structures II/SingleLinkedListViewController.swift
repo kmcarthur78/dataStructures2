@@ -1,56 +1,66 @@
 //
-//  LinkedListViewController.swift
+//  SingleLinkedListViewController.swift
 //  Data Structures II
 //
-//  Created by Kelsey McArthur on 3/6/19.
+//  Created by Kelsey McArthur on 3/29/19.
 //  Copyright © 2019 KMcArthur78. All rights reserved.
 //
 
 import UIKit
 
-class LinkedListViewController: UIViewController {
-
-    @IBOutlet weak var printList: UILabel!
-    @IBAction func removeFromList(_ sender: Any) {
-        dogBreeds.removeAll()
-        dogBreeds.append(value: "French Bulldog")
+class SingleLinkedListViewController: UIViewController {
+    
+    let farmAnimals = LinkedList<String>()
+    var count = 0
+    
+    @IBOutlet weak var userAppendValue: UITextField!
+    @IBAction func buttonAppend(_ sender: Any) {
+        let text: String = userAppendValue.text!
+        farmAnimals.append(value: text)
+        count = count + 1
+        print(count)
         viewDidLoad()
     }
-    @IBOutlet weak var IsEmpty: UILabel!
     
-    @IBOutlet weak var firstNodePrint: UILabel!
+    @IBAction func buttonDelete(_ sender: Any) {
+        farmAnimals.remove(node: farmAnimals.nodeAt(index: 0)!)
+        count = count - 1
+        viewDidLoad()
+    }
+    
+    @IBOutlet weak var userDeleteValue: UITextField!
+    @IBAction func buttonDeleteNthValue(_ sender: Any) {
+        let text: String = userDeleteValue.text!
+        
+    }
+    
+    
+    
+    @IBOutlet weak var printList: UILabel!
+    
     
     @IBAction func removeAllFromList(_ sender: Any) {
-        dogBreeds.removeAll()
+        farmAnimals.removeAll()
         viewDidLoad()
+        
     }
     
-    
-    let dogBreeds = LinkedList<String>()
-    
+    @IBOutlet weak var firstNode: UILabel!
+    @IBOutlet weak var fourthNode: UILabel!
+   
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        dogBreeds.append(value: "Labrador")
-        dogBreeds.append(value: "Pug")
-        dogBreeds.append(value: "Beagle")
-        dogBreeds.append(value: "Husky")
-        
+        if count > 0 {
+            firstNode.text = "\(farmAnimals.nodeAt(index: 0)!.value)"
+        }
+        if count > 3 {
+            fourthNode.text = "\(farmAnimals.nodeAt(index: 3)!.value)"
+        }
 
-        print(dogBreeds.toString())
-        
-        printList.text = "\(dogBreeds.toString())"
-        IsEmpty.text = "\(dogBreeds.isEmpty)"
-        firstNodePrint.text = "\(String(describing: dogBreeds.nodeAt(index: 0)))"
-        
-     
-//        // Do any additional setup after loading the view.
+        printList.text = "\(farmAnimals.toString())"
     }
     
     
     
-    
-
     public class Node<T> {
         var value: T
         var next: Node<T>?
@@ -60,6 +70,7 @@ class LinkedListViewController: UIViewController {
             self.value = value
         }
     }
+    
     
     public class LinkedList<T> {
         fileprivate var head: Node<T>?
@@ -76,6 +87,8 @@ class LinkedListViewController: UIViewController {
         public var last: Node<T>? {
             return tail
         }
+        
+        
         
         public func append(value: T) {
             let newNode = Node(value: value)
@@ -138,7 +151,8 @@ class LinkedListViewController: UIViewController {
             }
             return text + "]"
         }
+        
+        
+        
     }
 }
-
-
